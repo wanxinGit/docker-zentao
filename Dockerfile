@@ -2,9 +2,9 @@ FROM hub.c.163.com/public/centos:7.2.1511
 MAINTAINER wanxin <258621580@qq.com>
 
 #install tools
-RUN yum install -y tar && \
-yum install -y wget && \
-yum clean all
+#RUN yum install -y tar && \
+#yum install -y wget && \
+#yum clean all
 
 # download zentao package and unzip
 WORKDIR /opt
