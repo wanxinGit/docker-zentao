@@ -1,4 +1,4 @@
-FROM hub.c.163.com/public/centos:7.2.1511
+FROM hub.c.163.com/public/centos:6.7-tools
 MAINTAINER wanxin <258621580@qq.com>
 
 # download zentao package and unzip
