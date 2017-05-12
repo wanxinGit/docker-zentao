@@ -1,4 +1,4 @@
-FROM centos:6.7
+FROM hub.c.163.com/public/centos:7.2.1511
 MAINTAINER wanxin <258621580@qq.com>
 
 #install tools
