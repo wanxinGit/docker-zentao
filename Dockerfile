@@ -2,8 +2,9 @@ FROM centos:6.7
 MAINTAINER wanxin <258621580@qq.com>
 
 #install tools
-yum install -y tar
-yum install -y wget
+RUN yum install -y tar && \
+yum install -y wget && \
+yum clean all
 
 # download zentao package and unzip
 WORKDIR /opt
